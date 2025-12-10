@@ -8,7 +8,7 @@ const slideContent = [
     layout: 'layout-center-focus',
     title: 'Gasto Inteligente, Inversiones Efectivas', // Títulos: Gasto Inteligente, Inversiones Efectivas [cite: 1273]
     image: {
-      src: 'assets/images/Copia de slide-2.1', // Idea de la imagen: Logo de Mi Empresa Crece. [cite: 1273]
+    src: 'assets/images/Copia de slide-2.1.png',
       alt: 'Logo de Mi Empresa Crece'
     }
   },
@@ -20,7 +20,7 @@ const slideContent = [
     title: '¡Bienvenidos a Consolidación 360°!', // Títulos: ¡Bienvenidos a Consolidación 360°! [cite: 1277]
     subtitle: 'Gasto Inteligente, Inversiones Efectivas', // Subtítulos: Gasto Inteligente, Inversiones Efectivas [cite: 1278]
     image: {
-      src: 'assets/images/slide-2-caos-control.png', // Idea de la imagen: Una imagen dividida: a la izquierda, un escritorio caótico y oscuro; a la derecha, el mismo escritorio ordenado, minimalista y con luz. [cite: 1286, 1287]
+      src: 'assets/images/slide-1.jpeg',
       alt: 'Representación visual del Caos vs. el Control Financiero'
     }
   },
@@ -32,7 +32,7 @@ const slideContent = [
     title: 'Mi Empresa Crece: Nuestra Esencia', // Títulos: Mi Empresa Crece: Nuestra Esencia [cite: 1290]
     subtitle: 'Socio Estratégico para la Transformación Sostenible',
     image: {
-      src: 'assets/images/slide-3-andamio.png', // Idea de la imagen: Una imagen que represente un andamio sólido alrededor de una planta en crecimiento. [cite: 1296]
+      src: 'assets/images/slide-2.jpeg',
       alt: 'Andamio sólido alrededor de una planta en crecimiento: Metodología Probada'
     }
   },
@@ -44,7 +44,7 @@ const slideContent = [
     title: 'Tu Programa de Transformación', // Títulos: Tu Programa de Transformación [cite: 1298]
     subtitle: 'Los 3 Pilares de la Sostenibilidad del negocio',
     image: {
-      src: 'assets/images/slide-4-pilares.png', // Idea de la imagen: Tres iconos grandes y claros (Equipo, Ventas, Inversión) conectados por flechas. [cite: 1308]
+      src: 'assets/images/slide-3.png',
       alt: 'Diagrama de los tres pilares: Equipo, Ventas e Inversión'
     }
   },
@@ -56,7 +56,7 @@ const slideContent = [
     title: 'Sus Guías en este Viaje', // Títulos: Sus Guías en este Viaje [cite: 1311]
     subtitle: 'Nuestro Modelo Híbrido: Responsabilidad Compartida',
     image: {
-      src: 'assets/images/slide-5-guias-modelo.png', // Idea de la imagen: Fotos profesionales y accesibles de los facilitadores junto a un diagrama de flujo del modelo híbrido. [cite: 1319]
+      src: 'assets/images/slide-5.png',
       alt: 'Fotos de Facilitadores y Diagrama de Flujo del Modelo Híbrido'
     }
   },
@@ -67,6 +67,10 @@ const slideContent = [
     layout: 'layout-center-focus',
     title: 'Reglas del Juego y Dinámica', // Títulos: Reglas del Juego y Dinámica [cite: 1322]
     subtitle: 'Marco de Responsabilidad y Compromiso',
+    image: {
+        src: 'assets/images/Copia de slide-2.1.png',
+        alt: 'Logo'
+        }
   },
   
 // Lámina 6 (Diapositiva 7): Objetivos de Hoy (3 Min)
@@ -75,7 +79,7 @@ const slideContent = [
     title: 'Objetivos de Hoy: Tu Kit de Herramientas', // [cite: 70]
     subtitle: 'Herramientas Duras y Mindset del Arquitecto', // [cite: 74, 76]
     image: {
-      src: 'assets/images/slide-7-kit-herramientas.png', // Idea: Un layout de "caja de herramientas" con un icono para cada objetivo. [cite: 78]
+      src: 'assets/images/slide-7.png',
       alt: 'Kit de herramientas: Termómetro, Filtros, Calculadora y Mapa'
     }
   },
@@ -86,7 +90,7 @@ const slideContent = [
     title: 'El Mapa de Conceptos', // [cite: 82]
     subtitle: 'El "Porqué" detrás del Método', // [cite: 82, 87]
     image: {
-      src: 'assets/images/slide-8-mapa-conceptos.png', // Idea: Un mapa mental profesional y de alto impacto. [cite: 88]
+      src: 'assets/images/slide-8.png',
       alt: 'Mapa Mental: Relación entre FCL y Marco 4+1'
     }
   },
@@ -97,7 +101,7 @@ const slideContent = [
     title: 'Nuestra Ruta de Implementación', // [cite: 90]
     subtitle: 'El "Cómo": Flujo Consultivo', // [cite: 90, 94]
     image: {
-      src: 'assets/images/slide-9-ruta-metro.png', // Idea: Una infografía de proceso, como una línea de metro con paradas claras. [cite: 97]
+      src: 'assets/images/slide-9.png',
       alt: 'Ruta de implementación estilo línea de metro'
     }
   },
@@ -114,7 +118,7 @@ const slideContent = [
         text: 'Ir al Ejercicio 1'
     },
     image: {
-      src: 'assets/images/slide-10-workbook-ej1.png', // Visual del Ejercicio 1 del workbook. [cite: 106]
+      src: 'assets/images/slide-10.png',
       alt: 'Visual del Ejercicio 1: Salario y Dividendos'
     }
   },
@@ -129,7 +133,7 @@ const slideContent = [
         text: 'Ir al Ejercicio 2'
     },
     image: {
-      src: 'assets/images/slide-11-workbook-ej2.png', // Visual del Ejercicio 2 del workbook. [cite: 118]
+      src: 'assets/images/slide-11.png',
       alt: 'Visual del Ejercicio 2: Plan de Acción'
     }
   },
@@ -144,7 +148,7 @@ const slideContent = [
         text: 'Ir al Ejercicio 3'
     },
     image: {
-      src: 'assets/images/slide-12-workbook-ej3.png', // Visual del Ejercicio 3 del workbook. [cite: 130]
+      src: 'assets/images/slide-12.png',
       alt: 'Visual del Ejercicio 3: Escenario del Espejo'
     }
   },
@@ -159,7 +163,7 @@ const slideContent = [
         text: 'Ir al Ejercicio 4'
     },
     image: {
-      src: 'assets/images/slide-13-workbook-ej4.png', // Visual del Ejercicio 4 con la fórmula y el "semáforo". [cite: 141]
+      src: 'assets/images/slide-13.png',
       alt: 'Fórmula FCL y Semáforo de Alerta'
     }
   },
@@ -174,7 +178,7 @@ const slideContent = [
         text: 'Ir al Ejercicio 5'
     },
     image: {
-      src: 'assets/images/slide-14-matriz.png', // Visual de la matriz 2x2 del Ejercicio 5. [cite: 152]
+      src: 'assets/images/slide-14.jpeg', // Asumiendo jpeg por patrón o png
       alt: 'Matriz de Priorización: Impacto vs Urgencia'
     }
   },
@@ -189,7 +193,7 @@ const slideContent = [
         text: 'Iniciar Laboratorio (Ej 6-10)'
     },
     image: {
-      src: 'assets/images/slide-15-filtros.png', // Imagen central con iconos de los 5 filtros y flujo. [cite: 161]
+      src: 'assets/images/slide-15.png',
       alt: 'Diagrama de flujo: Los 5 Filtros del Marco 4+1'
     }
   },
@@ -204,7 +208,7 @@ const slideContent = [
         text: 'Ir al Ejercicio 11'
     },
     image: {
-      src: 'assets/images/slide-16-onepager.png', // Visual del Ejercicio 11 (el One-Pager). [cite: 172]
+      src: 'assets/images/slide-16.png',
       alt: 'Formato One-Pager: Argumento Irrefutable'
     }
   },
@@ -217,7 +221,7 @@ const slideContent = [
     title: 'Conclusiones: De Reaccionar a Construir', // [cite: 175]
     subtitle: 'El Sistema Vence a la Intuición',
     image: {
-      src: 'assets/images/slide-17-conclusiones.png', // Iconos de problemas transformándose en soluciones. [cite: 183]
+      src: 'assets/images/slide-17.png',
       alt: 'Transformación de Problemas a Soluciones'
     }
   },
@@ -228,7 +232,7 @@ const slideContent = [
     title: 'Llamado a la Acción: Eres el Arquitecto', // [cite: 185]
     subtitle: 'Tu PYME Merece un Arquitecto, no un Apostador', // [cite: 186]
     image: {
-      src: 'assets/images/slide-18-arquitecto.png', // Imagen inspiradora de un arquitecto. [cite: 193]
+      src: 'assets/images/slide-1.jpeg',
       alt: 'Arquitecto observando una maqueta bien construida'
     }
   },
@@ -239,7 +243,7 @@ const slideContent = [
     title: 'Gracias. El Viaje Continúa.', // [cite: 195]
     subtitle: 'Próximos Pasos de tu Transformación',
     image: {
-      src: 'assets/images/slide-19-contacto.png', // Logos de la empresa y datos de contacto claros. [cite: 200]
+      src: 'assets/images/Copia de slide-2.1.png',
       alt: 'Información de Contacto y Próximos Pasos'
     }
   },
@@ -249,7 +253,7 @@ const slideContent = [
     layout: 'layout-center-focus',
     title: 'Equipo Proactivo, Empresa Exitosa: De Tareas a Resultados.', // [cite: 203]
     image: {
-      src: 'assets/images/logo-miempresacrece-cierre.png', // Logo de Mi Empresa Crece. [cite: 204]
+      src: 'assets/images/Copia de slide-2.1.png',
       alt: 'Logo Final Mi Empresa Crece'
     }
   }
