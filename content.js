@@ -1,319 +1,112 @@
-// Archivo de Contenido para la Presentación: Sesión C
-// Homologado al estilo y estructura de Sesión B
+// Archivo de Contenido para la Presentación: Sesión C Flujo 4.2 - Gasto Inteligente, Inversiones Efectivas
 
 const slideContent = [
 
-  // Lámina 0: Inicio / Recepción (Nueva, para empalmar con Sesión B)
+// Lámina 0 (Diapositiva 1): Inicio / Recepción (2 Min)
   {
+    // Layout: Centrado, ideal para la diapositiva de recepción o título principal.
     layout: 'layout-center-focus',
-    title: 'Gasto Inteligente, Inversiones Efectivas',
-    subtitle: 'Recepción - Iniciamos en breves minutos',
+    title: 'Gasto Inteligente, Inversiones Efectivas', // Títulos: Gasto Inteligente, Inversiones Efectivas [cite: 1273]
     image: {
-      src: 'assets/images/slide-2.1.png', 
+      src: 'assets/images/logo-miempresacrece.png', // Idea de la imagen: Logo de Mi Empresa Crece. [cite: 1273]
       alt: 'Logo de Mi Empresa Crece'
     }
   },
 
-  // Lámina 1: Portada (Bienvenida)
+// Lámina 1 (Diapositiva 2): Portada / Problema-Promesa (2 Min)
   {
-    layout: 'layout-center-focus',
-    title: '¡Bienvenidos a Consolidación 360°!',
-    subtitle: 'Gasto Inteligente, Inversiones Efectivas',
-    image: {
-      src: 'assets/images/slide-1.jpeg',
-      alt: 'Portada Sesión C'
-    }
-  },
-
-  // Lámina 2: Nuestra Esencia
-  // Se ha limpiado el HTML incrustado para usar el layout nativo de dos columnas
-  {
+    // Layout: Dos Columnas, ideal para mostrar la imagen dividida (Caos vs. Control) y el texto de la promesa.
     layout: 'layout-two-columns',
-    title: 'Mi Empresa Crece: Nuestra Esencia',
-    subtitle: '"Construimos empresas sólidas y sostenibles."',
+    title: '¡Bienvenidos a Consolidación 360°!', // Títulos: ¡Bienvenidos a Consolidación 360°! [cite: 1277]
+    subtitle: 'Gasto Inteligente, Inversiones Efectivas', // Subtítulos: Gasto Inteligente, Inversiones Efectivas [cite: 1278]
     content: `
-      <p><strong>Metodología probada</strong>.</p>
-      <p style="margin-top: 20px;">Nuestra esencia no es solo teoría, es la transformación real de hábitos reactivos a métodos proactivos.</p>
-    `,
+      <p>Hoy validamos su decisión de pasar del desorden al control.</p>
+      <h2>"De la intuición al método: Transforma cada peso en el motor de tu visión".</h2>
+      <p>Si alguna vez han sentido que sus finanzas son un caos o que deciden por impulso, están en el lugar correcto. Les daremos un método para lograrlo.</p>
+    `, // Contenido basado en la Idea Central y Diálogos. [cite: 1279, 1280, 1283, 1284, 1285]
     image: {
-      src: 'assets/images/slide-2.jpeg',
-      alt: 'Empresas en construcción'
+      src: 'assets/images/slide-2-caos-control.png', // Idea de la imagen: Una imagen dividida: a la izquierda, un escritorio caótico y oscuro; a la derecha, el mismo escritorio ordenado, minimalista y con luz. [cite: 1286, 1287]
+      alt: 'Representación visual del Caos vs. el Control Financiero'
+    }
+  },
+  
+// Lámina 2 (Diapositiva 3): Nuestra Esencia (1 Min)
+  {
+    // Layout: Dos Columnas, para equilibrar el texto sobre la misión con la imagen de soporte.
+    layout: 'layout-two-columns',
+    title: 'Mi Empresa Crece: Nuestra Esencia', // Títulos: Mi Empresa Crece: Nuestra Esencia [cite: 1290]
+    subtitle: 'Socio Estratégico para la Transformación Sostenible',
+    content: `
+      <p>En Mi Empresa Crece tenemos una misión clara: ser el socio estratégico en la transformación de las PYMES.</p>
+      <p>No creemos en soluciones mágicas, creemos en **metodologías probadas** que construyen empresas sólidas y sostenibles.</p>
+    `, // Ideas Centrales: Misión y Metodología. [cite: 1291, 1293, 1294, 1295]
+    image: {
+      src: 'assets/images/slide-3-andamio.png', // Idea de la imagen: Una imagen que represente un andamio sólido alrededor de una planta en crecimiento. [cite: 1296]
+      alt: 'Andamio sólido alrededor de una planta en crecimiento: Metodología Probada'
     }
   },
 
-  // Lámina 3: Programa de Transformación
+// Lámina 3 (Diapositiva 4): Programa de Transformación (2 Min)
   {
+    // Layout: Infográfico, ideal para mostrar una conexión visual entre los 3 pilares con iconos y flechas.
     layout: 'layout-infographic',
-    title: 'Tu Programa de Transformación',
-    subtitle: 'Los 3 Pilares de tu Consolidación',
+    title: 'Tu Programa de Transformación', // Títulos: Tu Programa de Transformación [cite: 1298]
+    subtitle: 'Los 3 Pilares de la Sostenibilidad del negocio',
     content: `
-      <div class="icon-grid">
-        <div class="icon-item"><i class="fas fa-users"></i><p>Equipo</p></div>
-        <div class="connector">&rarr;</div>
-        <div class="icon-item"><i class="fas fa-chart-line"></i><p>Ventas</p></div>
-        <div class="connector">&rarr;</div>
-        <div class="icon-item"><i class="fas fa-coins" style="color: var(--accent-color);"></i><p><strong>Inversión</strong></p></div>
-      </div>
-    `
-    // Esta lámina usa layout-infographic, no requiere imagen externa en el objeto image
-  },
-
-  // Lámina 4: Sus Guías
-  {
-    layout: 'layout-two-columns', // Estandarizado a dos columnas para manejar texto + foto
-    title: 'Sus Guías en este Viaje',
-    subtitle: 'Aliados en tu Estrategia',
-    content: `
-      <div style="font-size: 1.2em; line-height: 1.6;">
-        <p><strong>El flujo del éxito:</strong></p>
-        <p>Sesión Grupal <br>&darr;<br> Implementación <br>&darr;<br> Sesión Individual <br>&darr;<br> Ajuste</p>
-      </div>
-    `,
-    image: {
-      src: 'assets/images/slide-4.jpeg',
-      alt: 'Guías del curso'
-    }
-  },
-
-  // Lámina 5: Reglas del Juego
-  {
-    layout: 'layout-default slide-5-custom',
-    title: 'Reglas del Juego y Dinámica',
-    subtitle: 'Cimientos para construir juntos',
-    content: `
-      <ul class="infographic-list">
-        <li><i class="fas fa-video"></i> <div><strong>Cámara encendida = Compromiso</strong><br>Estar presente y conectado con el grupo.</div></li>
-        <li><i class="fas fa-microphone-lines"></i> <div><strong>Participación activa = Proactividad</strong><br>Tu aprendizaje depende de tu involucramiento.</div></li>
-        <li><i class="fas fa-lightbulb"></i> <div><strong>Mente abierta = Crecimiento</strong><br>Dispuesto a desaprender y adoptar nuevos métodos.</div></li>
-        <li><i class="fas fa-clock"></i> <div><strong>Puntualidad = Respeto</strong><br>Valoramos tu tiempo y el de los demás.</div></li>
+      <p>Nuestro programa se sostiene sobre tres grandes pilares:</p>
+      <ul>
+        <li>Un Equipo de alto rendimiento.</li>
+        <li>Un sistema de Ventas predecible.</li>
+        <li>Una estrategia de **Inversión inteligente**.</li>
       </ul>
-    `
-  },
-
-  // Lámina 6: Objetivos de Hoy
-  {
-    layout: 'layout-two-columns', 
-    title: 'Objetivos de Hoy: Tu Kit de Herramientas',
-    subtitle: 'Herramientas Duras y Mindset del Arquitecto',
-    content: `
-      <div class="text-column">
-          <h3><i class="fas fa-tools" style="color: var(--secondary-color);"></i> Herramientas Duras</h3>
-          <ul style="font-size: 0.9em;">
-            <li>El "termómetro" del Flujo de Caja Libre</li>
-            <li>El sistema de Filtros 4+1</li>
-            <li>La "calculadora" de ROI anualizado</li>
-            <li>El Mapa de Riesgos</li>
-          </ul>
-      </div>
-      <div class="text-column" style="margin-top: 30px;">
-          <h3><i class="fas fa-brain" style="color: var(--secondary-color);"></i> Mindset</h3>
-          <ul style="font-size: 0.9em;">
-            <li>Disciplina y Confianza basada en datos</li>
-            <li>Visión estratégica</li>
-          </ul>
-      </div>
-    `,
+      <p>Hoy nos sumergimos de lleno en este tercer pilar, clave para la **Sostenibilidad**.</p>
+    `, // Ideas Centrales: Pilares y Enfoque en Inversión. [cite: 1302, 1303, 1304, 1305, 1307]
     image: {
-      src: 'assets/images/slide-6.jpeg',
-      alt: 'Kit de Herramientas'
+      src: 'assets/images/slide-4-pilares.png', // Idea de la imagen: Tres iconos grandes y claros (Equipo, Ventas, Inversión) conectados por flechas. [cite: 1308]
+      alt: 'Diagrama de los tres pilares: Equipo, Ventas e Inversión'
+    }
+  },
+  
+// Lámina 4 (Diapositiva 5): Guías y Modelo Híbrido (2 Min)
+  {
+    // Layout: Dos Columnas, para la presentación de los facilitadores (fotos) y el diagrama de flujo del modelo.
+    layout: 'layout-two-columns',
+    title: 'Sus Guías en este Viaje', // Títulos: Sus Guías en este Viaje [cite: 1311]
+    subtitle: 'Nuestro Modelo Híbrido: Responsabilidad Compartida',
+    content: `
+      <p>En este viaje no están solos. Nosotros, [Nombres de los facilitadores], seremos sus guías.</p>
+      <p>Nuestro modelo está diseñado para asegurar que la teoría se convierta en realidad, trabajando en un ciclo constante:</p>
+      <ol>
+        <li>Sesión Grupal</li>
+        <li>Implementación</li>
+        <li>Sesión Individual</li>
+        <li>Revisión y Ajuste</li>
+      </ol>
+    `, // Ideas Centrales: Presentación y Explicación del Ciclo. [cite: 1312, 1315, 1316, 1318]
+    image: {
+      src: 'assets/images/slide-5-guias-modelo.png', // Idea de la imagen: Fotos profesionales y accesibles de los facilitadores junto a un diagrama de flujo del modelo híbrido. [cite: 1319]
+      alt: 'Fotos de Facilitadores y Diagrama de Flujo del Modelo Híbrido'
     }
   },
 
-  // Lámina 7: Mapa de Conceptos
+// Lámina 5 (Diapositiva 6): Reglas (1 Min)
   {
+    // Layout: Centrado, para un mensaje clave y conciso sobre el compromiso.
     layout: 'layout-center-focus',
-    title: 'El Mapa de Conceptos',
-    subtitle: 'El "Porqué" detrás de la estrategia',
-    image: {
-      src: 'assets/images/slide-7.jpeg',
-      alt: 'Mapa de conceptos'
-    }
-  },
-
-  // Lámina 8: Ruta de Implementación
-  {
-    layout: 'layout-center-focus',
-    title: 'Nuestra Ruta de Implementación',
-    subtitle: 'El "Cómo" lo lograremos',
-    image: {
-      src: 'assets/images/slide-8.png',
-      alt: 'Ruta de implementación'
-    }
-  },
-
-  // Lámina 10: Actividad 1
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 1: Diagnóstico de Honestidad Radical',
-    subtitle: 'Abre tu Workbook - Ejercicio 1',
+    title: 'Reglas del Juego y Dinámica', // Títulos: Reglas del Juego y Dinámica [cite: 1322]
+    subtitle: 'Marco de Responsabilidad y Compromiso',
     content: `
-      <ol>
-        <li>Sé <strong>brutalmente honesto</strong>. Este es un espejo, no un examen.</li>
-        <li>Reflexiona y anota: ¿Cuál es el hábito N°1 que más se repite en tus decisiones financieras?</li>
-      </ol>
-    `,
-    image: {
-      src: 'assets/images/slide-9.jpeg',
-      alt: 'Diagnóstico'
-    }
-  },
-
-  // Lámina 11: Actividad 2
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 2: Del Hábito al Método',
-    subtitle: 'Workbook - Ejercicio 2',
-    content: `
-      <ol>
-        <li>Para cada "Hábito de Riesgo", define tu "Primer Paso para Implementar" la buena práctica.</li>
-        <li>Crea un puente claro entre el problema y la solución.</li>
-      </ol>
-    `,
-    image: {
-      src: 'assets/images/slide-10.jpeg',
-      alt: 'Del Hábito al Método'
-    }
-  },
-
-  // Lámina 12: Actividad 3
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 3: El Muro de Contención',
-    subtitle: 'Workbook - Ejercicio 3',
-    content: `
-      <ol>
-        <li>Pon límites claros para proteger tu negocio y tu patrimonio.</li>
-        <li>Define tu <strong>Salario de Director</strong> basado en el valor de mercado.</li>
-        <li>Establece tu <strong>Política de Dividendos</strong>.</li>
-      </ol>
-    `,
-    image: {
-      src: 'assets/images/slide-13.jpeg',
-      alt: 'Muro de contención'
-    }
-  },
-
-  // Lámina 13: Actividad 4
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 4: Midiendo mi Oxígeno Real',
-    subtitle: 'Workbook - Ejercicio 4',
-    content: `
-      <ol>
-        <li>Usarás tus <strong>estados de cuenta bancarios</strong>.</li>
-        <li>Calcula tu FCL Base.</li>
-        <li>Realiza el "Simulador de Vuelo": ¿Qué pasaría si tus ventas cayeran un 20%?</li>
-      </ol>
-    `,
-    image: {
-      src: 'assets/images/slide-20.jpeg',
-      alt: 'Midiendo oxígeno'
-    }
-  },
-
-  // Lámina 14: Proyecto Clave
-  {
-    layout: 'layout-center-focus',
-    title: 'Elige Tu Proyecto Clave',
-    subtitle: 'Foco en lo importante',
-    image: {
-      src: 'assets/images/slide-14.jpeg',
-      alt: 'Proyecto Clave'
-    }
-  },
-
-  // Lámina 15: Actividad 5
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 5: El Laboratorio de Decisión',
-    subtitle: 'Workbook - Ejercicio 5',
-    content: `
-      <ol>
-        <li>Con tu proyecto clave en mente.</li>
-        <li>Pasa tu proyecto por cada uno de los <strong>5 filtros</strong>.</li>
-        <li>Emite un veredicto de "SÍ/NO".</li>
-      </ol>
-    `,
-    image: {
-      src: 'assets/images/slide-21.jpeg',
-      alt: 'Laboratorio de decisión'
-    }
-  },
-
-  // Lámina 16: Actividad 6
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 6: Del Papel a la Acción',
-    subtitle: 'Workbook - Ejercicio 6',
-    content: `
-      <ol>
-        <li>Si tu decisión fue "SÍ".</li>
-        <li>Define tus <strong>acciones inmediatas (7 días)</strong>.</li>
-        <li>Establece tus <strong>hitos clave (30 días)</strong> y tus <strong>objetivos (90 días)</strong>.</li>
-      </ol>
-    `,
-    image: {
-      src: 'assets/images/slide-22.jpeg',
-      alt: 'Del Papel a la Acción'
-    }
-  },
-
-  // Lámina 17: Actividad 7
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 7: El Argumento Irrefutable',
-    subtitle: 'Entregable Final - Ejercicio 7',
-    content: `
-      <ol>
-        <li>Consolida toda la información en este formato de <strong>una página</strong>.</li>
-        <li>Fírmalo para formalizar tu compromiso.</li>
-      </ol>
-    `,
-    image: {
-      src: 'assets/images/slide-23.jpeg',
-      alt: 'Argumento Irrefutable'
-    }
-  },
-
-  // Lámina 18: Resumen (De Reaccionar a Construir)
-  {
-    layout: 'layout-default slide-19-custom',
-    title: 'De Reaccionar a Construir',
-    subtitle: 'La evolución de tu gestión',
-    content: `
-      <ul class="infographic-list" style="margin-top: 20px;">
-        <li><i class="fas fa-water"></i> <div><strong>Incertidumbre</strong> &rarr; <strong>Flujo de Caja Libre</strong>.</div></li>
-        <li><i class="fas fa-dollar-sign"></i> <div><strong>Gastos sin evaluación</strong> &rarr; <strong>Prima de Riesgo</strong>.</div></li>
-        <li><i class="fas fa-question-circle"></i> <div><strong>Miedo</strong> &rarr; <strong>Matriz de Riesgo</strong>.</div></li>
-        <li><i class="fas fa-random"></i> <div><strong>Mezcla de finanzas</strong> &rarr; <strong>Marco 4+1</strong>.</div></li>
+      <p>Para que esta sesión sea un verdadero motor de transformación, necesitamos establecer los cimientos para construir juntos:</p>
+      <ul class="rules-list">
+        <li>Cámara encendida: **Compromiso**</li>
+        <li>Participación activa: **Proactividad**</li>
+        <li>Enfoque total: **Resultados**</li>
       </ul>
-    `
+    `, // Ideas Centrales: Marco y Reglas/Valores. [cite: 1323, 1325, 1326]
   },
-
-  // Lámina 19: Cierre Inspiracional
-  {
-    layout: 'layout-center-focus',
-    title: 'Tu PYME Merece un Arquitecto, no un Apostador',
-    subtitle: 'La primera decisión empieza ahora.',
-    image: {
-      src: 'assets/images/slide-24.jpeg',
-      alt: 'Cierre Inspiracional'
-    }
-  },
-
-  // Lámina 20: Despedida y Pasos
-  {
-    layout: 'layout-center-focus',
-    title: 'Gracias. El Viaje Continúa.',
-    subtitle: 'Próximos Pasos: Implementación y Sesión Individual',
-    content: `
-      <p>Recuerda usar tu Plan de 90 días como guía.</p>
-      <p style="margin-top:20px; font-weight:bold;">Consolida 360º</p>
-    `,
-    image: {
-      src: 'assets/images/slide-2.1.png',
-      alt: 'Logo Final'
-    }
-  }
-
+  
+// **Añadir el resto de láminas del plan de sesión aquí (a partir de la Diapositiva 7).**
 ];
+
+// Exporta la constante para ser usada en el presentador.
+// module.exports = slideContent;
