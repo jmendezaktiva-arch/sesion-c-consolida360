@@ -67,7 +67,7 @@ const slideContent = [
     title: 'Reglas del Juego y Dinámica', // Títulos: Reglas del Juego y Dinámica [cite: 1322]
     subtitle: 'Marco de Responsabilidad y Compromiso',
     image: {
-        src: 'assets/images/Copia de slide-5.png',
+        src: 'assets/images/slide-5.png',
         alt: 'Logo'
         }
   },
