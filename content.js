@@ -56,8 +56,7 @@ const slideContent = [
     title: 'Sus Guías en este Viaje', // Títulos: Sus Guías en este Viaje [cite: 1311]
     subtitle: 'Nuestro Modelo Híbrido: Responsabilidad Compartida',
     image: {
-      src: 'assets/images/slide-5.png',
-      alt: 'Fotos de Facilitadores y Diagrama de Flujo del Modelo Híbrido'
+      src: 'assets/images/slide-4.png',
     }
   },
 
@@ -68,7 +67,7 @@ const slideContent = [
     title: 'Reglas del Juego y Dinámica', // Títulos: Reglas del Juego y Dinámica [cite: 1322]
     subtitle: 'Marco de Responsabilidad y Compromiso',
     image: {
-        src: 'assets/images/Copia de slide-2.1.png',
+        src: 'assets/images/Copia de slide-5.png',
         alt: 'Logo'
         }
   },
@@ -80,7 +79,6 @@ const slideContent = [
     subtitle: 'Herramientas Duras y Mindset del Arquitecto', // [cite: 74, 76]
     image: {
       src: 'assets/images/slide-7.png',
-      alt: 'Kit de herramientas: Termómetro, Filtros, Calculadora y Mapa'
     }
   },
 
