@@ -104,110 +104,14 @@ const slideContent = [
     }
   },
 
-// BLOQUE 2: TALLER DE CONSTRUCCIÓN
-
-// Lámina 9 (Diapositiva 10): Actividad 1 (7 Min)
+// --- SERIE DE EJERCICIOS (MODIFICADO) ---
   {
-    layout: 'layout-two-columns', // Pantalla dividida: Instrucciones | Visual Workbook
-    title: 'Actividad 1: Diagnóstico de Consolidación de Finanzas', // [cite: 100]
-    subtitle: 'Construyendo el Muro de Contención', // [cite: 105]
+    layout: 'layout-center-focus',
+    title: 'Plan de implementación',
+    subtitle: 'Diagnosticando tu Ecosistema Digital',
     workbookLink: {
-        url: '../workbook/index.html#ejercicio1',
-        text: 'Ir al Ejercicio 1'
-    },
-    image: {
-      src: 'assets/images/slide-10.png',
-      alt: 'Visual del Ejercicio 1: Salario y Dividendos'
-    }
-  },
-
-// Lámina 10 (Diapositiva 11): Actividad 2 (7 Min)
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 2: Plan de Acción Financiera', // [cite: 111]
-    subtitle: 'De Políticas a Compromisos', // [cite: 117]
-    workbookLink: {
-        url: '../workbook/index.html#ejercicio2',
-        text: 'Ir al Ejercicio 2'
-    },
-    image: {
-      src: 'assets/images/slide-11.png',
-      alt: 'Visual del Ejercicio 2: Plan de Acción'
-    }
-  },
-
-// Lámina 11 (Diapositiva 12): Actividad 3 (7 Min)
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 3: Diagnóstico de Hábitos de Inversión', // [cite: 122]
-    subtitle: 'Honestidad Radical y Anclas Visuales', // [cite: 127]
-    workbookLink: {
-        url: '../workbook/index.html#ejercicio3',
-        text: 'Ir al Ejercicio 3'
-    },
-    image: {
-      src: 'assets/images/slide-12.png',
-      alt: 'Visual del Ejercicio 3: Escenario del Espejo'
-    }
-  },
-
-// Lámina 12 (Diapositiva 13): Actividad 4 (10 Min)
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 4: Midiendo mi Oxígeno Real', // [cite: 134]
-    subtitle: 'Simulador de Vuelo Financiero', // [cite: 139]
-    workbookLink: {
-        url: '../workbook/index.html#ejercicio4',
-        text: 'Ir al Ejercicio 4'
-    },
-    image: {
-      src: 'assets/images/slide-13.png',
-      alt: 'Fórmula FCL y Semáforo de Alerta'
-    }
-  },
-
-// Lámina 13 (Diapositiva 14): Actividad 5 (8 Min)
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 5: Selección de Proyecto Prioritario', // [cite: 145]
-    subtitle: 'Enfoque y Priorización', // [cite: 151]
-    workbookLink: {
-        url: '../workbook/index.html#ejercicio5',
-        text: 'Ir al Ejercicio 5'
-    },
-    image: {
-      src: 'assets/images/slide-14.jpeg', // Asumiendo jpeg por patrón o png
-      alt: 'Matriz de Priorización: Impacto vs Urgencia'
-    }
-  },
-
-// Lámina 14 (Diapositiva 15): Actividad 6 a 10 (15 Min)
-  {
-    layout: 'layout-center-focus', // Layout central para destacar el flujo de los filtros
-    title: 'Actividad 6 a 10: El Laboratorio de Decisión', // [cite: 155]
-    subtitle: 'Marco de Evaluación $4+1$', // [cite: 5, 155]
-    workbookLink: {
-        url: '../workbook/index.html#ejercicio6',
-        text: 'Iniciar Laboratorio (Ej 6-10)'
-    },
-    image: {
-      src: 'assets/images/slide-15.png',
-      alt: 'Diagrama de flujo: Los 5 Filtros del Marco 4+1'
-    }
-  },
-
-// Lámina 15 (Diapositiva 16): Actividad 11 (7 Min)
-  {
-    layout: 'layout-two-columns',
-    title: 'Actividad 11: El Argumento Irrefutable', // [cite: 165]
-    subtitle: 'Tu One-Pager / Caso de Negocio', // [cite: 165, 171]
-    workbookLink: {
-        url: '../workbook/index.html#ejercicio11',
-        text: 'Ir al Ejercicio 11'
-    },
-    image: {
-      src: 'assets/images/slide-16.png',
-      alt: 'Formato One-Pager: Argumento Irrefutable'
+        url: '../workbook/index.html#diagnostico',
+        text: 'Abrir Plan de Implementación'
     }
   },
 
