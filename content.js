@@ -71,8 +71,32 @@ const slideContent = [
         alt: 'Logo'
         }
   },
-  
-// Lámina 6 (Diapositiva 7): Objetivos de Hoy (3 Min)
+ // Lámina 6 (Diapositiva 7): Objetivos de Hoy (3 Min)
+  {
+    layout: 'layout-infographic', // Ideal para mostrar el "Kit" de herramientas visualmente
+    title: 'Objetivos de Hoy: Tu Kit de Herramientas', //
+    subtitle: 'Herramientas Duras y Mindset del Arquitecto', //
+    content: `
+      <p>Al final de la sesión tendrán herramientas duras y un nuevo mindset:</p>
+      <ul>
+        <li><strong>El "termómetro" del Flujo de Caja Libre.</strong></li>
+        <li><strong>El sistema de Filtros $4+1$.</strong></li>
+        <li><strong>La "calculadora" de ROI.</strong></li>
+        <li><strong>El Mapa de Riesgos.</strong></li>
+      </ul>
+      <p><em>Mindset: Disciplina, confianza en los datos y visión estratégica.</em></p>
+    `, //
+    // RUTA ACTUALIZADA CON EL CONTENT_ID DE LA IMAGEN GENERADA
+    image: {
+      src: 'assets/images/slide-7.png', 
+      alt: 'Kit de herramientas: Termómetro, Filtros, Calculadora y Mapa'
+    }
+  }, 
+
+
+
+
+  // Lámina 6 (Diapositiva 7): Objetivos de Hoy (3 Min)
   {
     layout: 'layout-infographic', // Ideal para mostrar el "Kit" de herramientas visualmente
     title: 'Objetivos de Hoy: Tu Kit de Herramientas', // [cite: 70]
@@ -153,10 +177,9 @@ const slideContent = [
 // Lámina 19 (Diapositiva 20): Despedida (2 Min)
   {
     layout: 'layout-center-focus',
-    title: 'Equipo Proactivo, Empresa Exitosa: De Tareas a Resultados.', // [cite: 203]
+    title: 'Consolida 360º.', // [cite: 203]
     image: {
       src: 'assets/images/Copia de slide-2.1.png',
-      alt: 'Logo Final Mi Empresa Crece'
     }
   }
 
