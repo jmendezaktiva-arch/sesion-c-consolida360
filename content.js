@@ -71,32 +71,8 @@ const slideContent = [
         alt: 'Logo'
         }
   },
- // Lámina 6 (Diapositiva 7): Objetivos de Hoy (3 Min)
-  {
-    layout: 'layout-infographic', // Ideal para mostrar el "Kit" de herramientas visualmente
-    title: 'Objetivos de Hoy: Tu Kit de Herramientas', //
-    subtitle: 'Herramientas Duras y Mindset del Arquitecto', //
-    content: `
-      <p>Al final de la sesión tendrán herramientas duras y un nuevo mindset:</p>
-      <ul>
-        <li><strong>El "termómetro" del Flujo de Caja Libre.</strong></li>
-        <li><strong>El sistema de Filtros $4+1$.</strong></li>
-        <li><strong>La "calculadora" de ROI.</strong></li>
-        <li><strong>El Mapa de Riesgos.</strong></li>
-      </ul>
-      <p><em>Mindset: Disciplina, confianza en los datos y visión estratégica.</em></p>
-    `, //
-    // RUTA ACTUALIZADA CON EL CONTENT_ID DE LA IMAGEN GENERADA
-    image: {
-      src: 'assets/images/slide-7.png', 
-      alt: 'Kit de herramientas: Termómetro, Filtros, Calculadora y Mapa'
-    }
-  }, 
-
-
-
-
-  // Lámina 6 (Diapositiva 7): Objetivos de Hoy (3 Min)
+  
+// Lámina 6 (Diapositiva 7): Objetivos de Hoy (3 Min)
   {
     layout: 'layout-infographic', // Ideal para mostrar el "Kit" de herramientas visualmente
     title: 'Objetivos de Hoy: Tu Kit de Herramientas', // [cite: 70]
@@ -152,29 +128,57 @@ const slideContent = [
     }
   },
 
-// Lámina 17 (Diapositiva 18): Llamado a la Acción (2 Min)
+// Lámina 17 (Diapositiva 18): SESIÓN 1 A 1 (2 Min)
+  {
+    layout: 'layout-center-focus',
+    title: 'Tu Sesión Estratégica 1 a 1', 
+    subtitle: 'Asegurando el éxito de tu Implementación 360°', 
+    content: `
+      <p>Tras completar los 3 pilares (Equipo, Ventas, Inversión), el programa incluye una <strong>sesión de consultoría individual</strong>.</p>
+      <ul>
+        <li><strong>Objetivo:</strong> Aterrizar, validar y asegurar el valor de los 3 ejes en tu PYME.</li>
+        <li><strong>Formato:</strong> 30 a 60 minutos de revisión ejecutiva y orientación estratégica.</li>
+      </ul>
+      <p><em>No estás solo. Estamos para orientarte y proteger tus intereses.</em></p>
+    `, 
+    image: {
+      src: 'assets/images/slide-1.1.png',
+    alt: 'Representación de Consultoría Individual 1 a 1'
+    }
+  },
+
+  
+
+// Lámina 18 (Diapositiva 19): Llamado a la Acción (2 Min)
   {
     layout: 'layout-center-focus',
     title: 'Llamado a la Acción: Eres el Arquitecto', // [cite: 185]
     subtitle: 'Tu PYME Merece un Arquitecto, no un Apostador', // [cite: 186]
     image: {
       src: 'assets/images/slide-1.jpeg',
-      alt: 'Arquitecto observando una maqueta bien construida'
     }
   },
 
-// Lámina 18 (Diapositiva 19): Agradecimiento y Pasos (2 Min)
+// Lámina 19 (Diapositiva 20): Agradecimiento y Pasos (2 Min)
   {
     layout: 'layout-center-focus',
-    title: 'Gracias. El Viaje Continúa.', // [cite: 195]
-    subtitle: 'Próximos Pasos de tu Transformación',
+    title: 'El Viaje Continúa.', // [cite: 195]
+    subtitle: 'Próximos Pasos: Agenda y Acción',
     image: {
-      src: 'assets/images/Copia de slide-2.1.png',
+      src: 'assets/images/Copia de slide-18.1.png',
       alt: 'Información de Contacto y Próximos Pasos'
     }
   },
 
-// Lámina 19 (Diapositiva 20): Despedida (2 Min)
+// Lámina 20 (Diapositiva 21): Agradecimiento y Pasos (2 Min)
+  {
+    layout: 'layout-center-focus',
+    image: {
+      src: 'assets/images/slide-19.png'
+  }
+},
+
+// Lámina 21 (Diapositiva 22): Despedida (2 Min)
   {
     layout: 'layout-center-focus',
     title: 'Consolida 360º.', // [cite: 203]
