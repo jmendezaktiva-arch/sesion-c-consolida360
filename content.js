@@ -133,17 +133,8 @@ const slideContent = [
     layout: 'layout-center-focus',
     title: 'Tu Sesión Estratégica 1 a 1', 
     subtitle: 'Asegurando el éxito de tu Implementación 360°', 
-    content: `
-      <p>Tras completar los 3 pilares (Equipo, Ventas, Inversión), el programa incluye una <strong>sesión de consultoría individual</strong>.</p>
-      <ul>
-        <li><strong>Objetivo:</strong> Aterrizar, validar y asegurar el valor de los 3 ejes en tu PYME.</li>
-        <li><strong>Formato:</strong> 30 a 60 minutos de revisión ejecutiva y orientación estratégica.</li>
-      </ul>
-      <p><em>No estás solo. Estamos para orientarte y proteger tus intereses.</em></p>
-    `, 
     image: {
       src: 'assets/images/slide-1.1.png',
-    alt: 'Representación de Consultoría Individual 1 a 1'
     }
   },
 
@@ -152,7 +143,7 @@ const slideContent = [
 // Lámina 18 (Diapositiva 19): Llamado a la Acción (2 Min)
   {
     layout: 'layout-center-focus',
-    title: 'Llamado a la Acción: Eres el Arquitecto', // [cite: 185]
+    title: 'Eres el Arquitecto', // [cite: 185]
     subtitle: 'Tu PYME Merece un Arquitecto, no un Apostador', // [cite: 186]
     image: {
       src: 'assets/images/slide-1.jpeg',
@@ -165,7 +156,7 @@ const slideContent = [
     title: 'El Viaje Continúa.', // [cite: 195]
     subtitle: 'Próximos Pasos: Agenda y Acción',
     image: {
-      src: 'assets/images/Copia de slide-18.1.png',
+      src: 'assets/images/slide-18.1.png',
       alt: 'Información de Contacto y Próximos Pasos'
     }
   },
